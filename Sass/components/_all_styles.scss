@@ -1,0 +1,25 @@
+.header_omega {
+    width: 1170px;
+    max-width: 100vw;
+    background-color: antiquewhite;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.btn_omega {
+    padding: 10px 5px;
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.btn_color {
+    color: #ffff;
+    &:hover,
+    &:focus{
+        color: aquamarine;
+    }
+}
