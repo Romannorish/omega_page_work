@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"timecomponent.css"}
+{"version":3,"sources":["../Sass/timecomponent.scss","timecomponent.css"],"names":[],"mappings":"AACA;EACI,oBAAA;EAAA,oBAAA;EAAA,aAAA;EACA,wBAAA;MAAA,qBAAA;UAAA,uBAAA;ACAJ;;ADMA;EACI,cAAA;EACA,wBAAA;MAAA,qBAAA;UAAA,uBAAA;ACHJ;;ADKA;EACI,gBAAA;EACA,aAAA;ACFJ;;ADKA;EACI,gBAAA;EACA,uBAAA;EACA,mBAAA;ACFJ;ADGI;EAEI,8BAAA;UAAA,sBAAA;EACA,iCAAA;EAAA,yBAAA;ACFR","file":"timecomponent.css"}
