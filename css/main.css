@@ -57,7 +57,7 @@ img {
 
 .servises__item {
   list-style: none;
-  width: 300px;
+  width: 310px;
   height: auto;
   margin-left: 15px;
 }
@@ -98,7 +98,7 @@ img {
   text-align: center;
   margin-top: 10px;
   color: black;
-  font-size: 12px;
+  font-size: 8px;
 }
 
 .servises__link {
