@@ -11,53 +11,193 @@
         <a href="./index.html">index</a>
     </header>
     <main>  
-        <div class="fluids__container">
-            <ul class="fluids__list">
-              <li class="fluids__item">
-                <a class="fluids__link" href="">
-                  <div class="fluids__img__box">
-                    <img src="./img/image_10.jpg" alt="pidbir">
-                  </div>
-                </a>
-              </li>
-              <li class="fluids__item">
-                <a class="fluids__link" href="">
-                  <div class="fluids__img__box">
-                    <img src="./img/image_11.jpg" alt="dostavka">
-                  </div>
-                </a>
-              </li>
-              <li class="fluids__item">
-                <a class="fluids__link" href="">
-                  <div class="fluids__img__box">
-                    <img src="./img/image_12.jpg" alt="waranty">
-                  </div>
-                </a>
-              </li>
-            </ul> 
-          </div>
-          <style>.fluids__container{width:1199px;max-width:100%}.fluids__list{padding:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media screen and (max-width: 520px){.fluids__list{display:block;max-width:100vw}}.fluids__item{list-style:none;width:310px;height:auto;margin-left:15px}@media screen and (max-width: 520px){.fluids__item{margin-left:0;display:block;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-left:auto;margin-right:auto;max-width:100%}}.fluids__img__box{max-width:100%;padding:10px}.fluids__text__box,.fluids__img__box{padding:10px}.fluids__text__box:hover,.fluids__text__box:focus,.fluids__img__box:hover,.fluids__img__box:focus{-webkit-transform:scale(1.03);transform:scale(1.03);-webkit-transition:all .3s ease;transition:all .3s ease}.fluids__title__box{text-align:center;color:#002f87}.fluids__text{text-align:center;margin-top:10px;color:#000;font-size:8px}.fluids__link{text-decoration:none}/*# sourceMappingURL=timecomponent.min.css.map */</style>
 
-          <div class="oils__container">
-            <ul class="oils__list">
-              <li class="oils__item">
-                <a class="oils__link" href="">
-                  <div class="oils__img__box">
-                    <img src="./img/image_10.jpg" alt="pidbir">
-                  </div>
-                </a>
-              </li>
-              <li class="oils__item">
-                <a class="oils__link" href="">
-                  <div class="oils__img__box">
-                    <img src="./img/image_11.jpg" alt="dostavka">
-                  </div>
-                </a>
-              </li>
-            </ul> 
-          </div>
-          <style>.oils__container{width:1199px;max-width:100%}.oils__list{padding:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media screen and (max-width: 520px){.oils__list{display:block;max-width:100vw}}.oils__item{list-style:none;width:310px;height:auto;margin-left:15px}@media screen and (max-width: 520px){.oils__item{margin-left:0;display:block;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-left:auto;margin-right:auto;max-width:100%}}.oils__img__box{max-width:100%;padding:10px}.oils__text__box,.oils__img__box{padding:10px}.oils__text__box:hover,.oils__text__box:focus,.oils__img__box:hover,.oils__img__box:focus{-webkit-transform:scale(1.03);transform:scale(1.03);-webkit-transition:all .3s ease;transition:all .3s ease}.oils__title__box{text-align:center;color:#002f87}.oils__text{text-align:center;margin-top:10px;color:#000;font-size:8px}.oils__link{text-decoration:none}/*# sourceMappingURL=timecomponent.min.css.map */</style>
+      <h2 style="font-size: 24px; text-align: center; color: #002F87;">Часті питання та відповіді</h2>
+
+       <!-- popap -->
+       <div class="content_details">
+        <details class="details">
+          <summary class="summary_ask">До яких марок легкових авто ви пропонуєте запчастини?</summary>
+          <p class="response">Як дилер автозапчастин в Україні, ми маємо максимально широкий асортимент — в каталозі представлені запчастини до всіх популярних марок легкових авто.</p>
+        </details>
+        <details class="details">
+          <summary class="summary_ask">Які вимоги до бажаючих співпрацювати з вашою компанією?</summary>
+          <p class="response">Стати партнером “Омега” можуть авто магазини, СТО, різноманітні авто підприємства. Ми не співпрацюємо з роздрібними покупцями.</p>
+        </details>
+        <details class="details">
+          <summary class="summary_ask">Як відбувається процес оформлення замовлення?</summary>
+          <p class="response">Замовити автозапчастини можна на сайті, в мобільному додатку чи за номерами телефонів, вказаних на сайті.</p>
+        </details>
+        <details class="details">
+          <summary class="summary_ask">Які способи оплати приймає ваша компанія?</summary>
+          <p class="response">Для зручності клієнтів, “Омега” приймає всі можливі варіанти платежів (від готівкових до безготівкових) — ви зможете підібрати найбільш зручний для себе.</p>
+        </details>
+       </div>
+        
+
+        <style>
+          *{
+            margin: 0;
+          }
+          .content_details{
+            max-width: 850px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: auto;
+            margin-right: auto;
+          }
           
+          details {
+            background-color: #edf0f7;
+            margin-bottom: 10px;
+          }
+          @media (min-width:768px) {
+          details:hover,
+          details:focus{
+            background-color: #d6e2f8;
+          }
+          }
+          
+          
+          details[open] .response{
+            background-color: #ffffff;
+          }
+        .details{
+          max-width: 850px;
+          border: 1px solid rgb(154, 154, 154);
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .summary_ask{
+          color: #002F87;
+          font-weight: 600;
+          font-size: 26px;
+        }
+        .summary_ask ,.response{
+          cursor: pointer;
+          text-align: left;
+          padding: 15px 20px;
+        }
+        .summary_ask::marker{
+          content: '+ ';
+          color: #002F87;
+        }
+        details[open] .summary_ask::marker {
+          content: '- ';
+        }
+        .details p {
+          margin: 0;
+        }
+        </style>
+
+
+
+        <!-- <h2 style="font-size: 24px; text-align: center;color: #333; margin-left: auto; margin-right: auto;">Компанія «Омега» національний дистриб'ютор 
+          компонентів до сільгосптехніки
+         </h2>
+         <style>
+          .title_selhoz{
+            text-align: center;
+            font-size: 24px;
+          }
+         </style>
+         <strong></strong> -->
+      <!-- title descr 1  -->
+    
+
+
+
+
+
+      
+
+      <!-- title descr 2  -->
+
+      <!-- <div class="selhoz-descr-our">
+      <p class="descr-our">
+        Якщо ви шукаєте запчастини для с/г техніки від постачальника для власних потреб чи на продаж, ми 
+гарантуємо максимально комфортні та зручні умови для замовників зі всієї України. Щоб купити 
+запчастини до сільськогосподарської техніки гуртом, ви можете скористатися зручним для себе 
+способом: оформити замовлення на сайті, зателефонувати нашим або ж приїхати до одного з наших 
+представництв, котрі є у кожному регіоні.
+      </p>
+      <p class="descr-our-bot">
+        Станом на січень 2023 року для вас працювало понад 2300 співробітників компанії «Омега». Завдяки 
+цьому досягається максимально оперативне оброблення замовлень. Наприклад, розрахунки свідчать, 
+що наші спеціалісти відвантажують близько 1500 замовлень щогодини.
+      </p>
+      </div>
+
+
+   title descr 3  -->
+    <!-- <div class="descr_selhoz_omega">
+      <h2 class="title_selhoz_omega" style="text-align: center;">“Омега” — нідійний український дистриб’ютор запчастин до сільгосптехніки</h2>
+      <p class="text_selhoz_omega">
+        Ми пропонуємо деталі для с/г техніки оптом — саме на такому напрямку роботи сконцентрована 
+діяльність компанії. Завдяки цьому, ви можете розраховувати на зручний сервіс, починаючи від 
+мобільної версії сайту, і закінчуючи професійними менеджерами, а також максимально швидкою 
+доставкою деталей та компонентів. В автопарку компанії є понад 120 авто, котрі використовуються 
+для щоденної доставки товару. Якщо ви шукаєте надійного постачальника запчастин до 
+сільгосптехніки — запрошуємо до співпраці.
+      </p>
+    </div> --> 
+
+       <!-- <div class="auto_description">
+        <p>
+          Переважна більшість автовласників та компаній, котрі спеціалізуються на ремонті чи обслуговуванні автомобілів, добре усвідомлюють: якісні <strong>запчастини до легкової техніки</strong> — гостра необхідність. Наша компанія співпрацює з тисячами автомагазинів, СТО та підприємствами різної форми власності у питанні поставок запчастин для легкової автомобільної техніки. Завдяки професійному підходу до роботи та наявності повного каталогу деталей для більшості моделей авто — ви можете розраховувати на вигідну співпрацю.
+        </p>  
+        <p>
+          Напрямком діяльності компанії «Омега» є не окремі автовласники, а компанії, автомагазини та СТО. Так, ми розробили максимально вигідні умови та зручний алгоритм для співпраці з гуртовими клієнтами. Наприклад, кожен наш клієнт має персонального менеджера, котрий готовий відповісти на всі питання, допомогти швидко оформити замовлення та оперативно вирішувати будь-які питання. Якщо вам потрібні <strong>запчастини до легкових автомобілів в Україні гуртом</strong>, ми пропонуємо:
+        </p>
+        <ul class="list_auto">
+          <li><strong>широкий асортимент</strong></li>
+          <li><strong>склади по  всій Україні, що робить логістику максимально зручною</strong></li>
+          <li><strong>унікальний сервіс доставки «сьогодні-на-сьогодні»</strong></li>
+        </ul>
+      </div>
+    <style>
+      .auto_description p {
+        text-indent: 20px;
+      }
+    </style> -->
+
+
+    <!-- <div class="content_our_avto">
+      <p>Ми пропонуємо <strong>запчастини до легкових авто гуртом</strong> до більшості марок автомобілів, котрі сьогодні популярні в Україні. Завдяки тому, що компанія «Омега» — це офіційний національний <strong>постачальник запчастини до легкової техніки</strong>, ви можете бути повністю впевненими у зручності співпраці з нами. Ми пропонуємо:
+        </p>
+        <ol>
+          <li>Підбір деталей за VIN кодом.</li>
+          <li>Бездоганно відточені умови та процес співпраці.</li>
+          <li>Постійну наявність на складах: запчастини,<a href="https://omega.page/aims/shini">шини</a>, <a href="https://omega.page/aims/accums">акумулятори</a>, <a href="https://omega.page/aims/tech_veshes">технічні рідини та мастила</a></li>
+        </ol>
+        <p>
+          Окремої уваги заслуговує вартість автомобільних запчастин з нашого каталогу при гуртових замовленнях. Щоб робота з продажу автозапчастин для легкової техніки була для вас максимально вигідною та виправдовувала себе, необхідно знайти баланс між відмінною якістю та доступними цінами. Ми постійно моніторимо ринкову <strong>вартість запчастин до легкових авто</strong> та пропонуємо максимально вигідні <strong>оптові ціни на авто деталі.</strong> Ви можете розраховувати на те, що співпраця з нашою компанією стане запорукою вашої бездоганної репутації перед клієнтами чи покупцями.
+        </p>
+        <style>
+          .content_our_avto p {
+            text-indent: 50px;
+          }
+          .content_our_avto a {
+            text-decoration: none;
+            color: #00008B;
+            font-weight: 600;
+          }
+        </style>
+    </div> -->
+<!-- 
+    <div class="content_aurto">
+      <p style="margin-bottom: 20px;">Як національний дистриб'ютор запчастин до іномарок та вітчизняних марок автомобілів, ми прагнемо 
+        створити максимально зручний сервіс роботи для кожного свого клієнта. Співпраця з «Омега» 
+        починається від вашого контакту з менеджером, котрий в подальшому особисто буде супроводжувати 
+        вас. Кожен наш клієнт може розраховувати на індивідуальний підхід та швидке вирішення будь-яких 
+        питань, котрі можуть виникнути в робочому процесі.</p>
+      <p>Кожне оформлене замовлення на запчастини до легкових автомобілів виконується у максимально 
+        стислі терміни. Запорукою цьому служить розгалужена система складів, розподільчих та шинних 
+        центрів. В кожному регіоні країни є склад компанії, крім того, ми маємо 3 регіональні центри — у 
+        Харкові, Києві та Львові. Таким чином, наша компанія зробила все, щоб ви могли розраховувати на 
+        наявність та швидку доставку запчастин для легкових авто.</p>
+    </div> -->
+        
     </main> 
 <footer>
 
